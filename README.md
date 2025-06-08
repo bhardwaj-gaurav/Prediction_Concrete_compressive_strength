@@ -5,7 +5,8 @@ This project focuses on predicting the compressive strength of concrete based on
 
 **Dataset**/n
 **Source :** https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
-**Size :** 1030 Instances, and 9 Input Features./n
+**Size :** 1030 Instances, and 9 Input Features.
+
 *Features :
       *Cement (Kg/m^3)
       *Blast Furnance Slag (Kg/m^3)
