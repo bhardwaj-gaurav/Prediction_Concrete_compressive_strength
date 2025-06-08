@@ -21,10 +21,10 @@ This project focuses on predicting the compressive strength of concrete based on
 **Tools & Technologies**   
 **Programming Language :** Python  
 **Libraries :**   
-    * **Pandas :** Data Handling  
-    * **numpy :** Numerical Computation  
-    * **matplotlib :** Visualization  
-    * **Scikit-learn :** ML Modeling and Performance metrics.  
+   * **Pandas :** Data Handling  
+   * **numpy :** Numerical Computation  
+   * **matplotlib :** Visualization  
+   * **Scikit-learn :** ML Modeling and Performance metrics.  
 
 **Evaluation and Results**  
    * **R-Squared :** 0.62  
