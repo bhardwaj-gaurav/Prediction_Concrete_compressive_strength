@@ -4,18 +4,18 @@
 This project focuses on predicting the compressive strength of concrete based on its material composition using **MULTIPLE LINEAR REGRESSION**. The model is trained on a real world dataset from UCI, simulating a practical applications in civil engineering and material testing.
 
 **Dataset**/n
-**Source :** https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength  /n
+**Source :** https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
 **Size :** 1030 Instances, and 9 Input Features./n
-**Features :**
-     Cement (Kg/m^3)
-     Blast Furnance Slag (Kg/m^3)
-     Fly Ash (Kg/m^3)
-     Water (Kg/m^3)
-     Superplasticizer (Kg/m^3)
-     Coarse Aggregate (Kg/m^3)
-     Fine Aggregate (Kg/m^3)
-     Age (days)
-     **Target :** Compressive Strength (MPa)
+** *Features :**
+      *Cement (Kg/m^3)
+      *Blast Furnance Slag (Kg/m^3)
+      *Fly Ash (Kg/m^3)
+      *Water (Kg/m^3)
+      *Superplasticizer (Kg/m^3)
+      *Coarse Aggregate (Kg/m^3)
+      *Fine Aggregate (Kg/m^3)
+      *Age (days)
+      ***Target :** Compressive Strength (MPa)
 
 **Tools & Technologies**
 **Programming Language :** Python
