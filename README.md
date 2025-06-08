@@ -8,15 +8,15 @@ This project focuses on predicting the compressive strength of concrete based on
 **Size :** 1030 Instances, and 9 Input Features.  
 
 **Features :**  
-    * Cement (Kg/m^3)
-    * Blast Furnance Slag (Kg/m^3)
-    * Fly Ash (Kg/m^3)
-    * Water (Kg/m^3)
-    * Superplasticizer (Kg/m^3)
-    * Coarse Aggregate (Kg/m^3)
-    * Fine Aggregate (Kg/m^3)
-    * Age (days)
-    * Target : Compressive Strength (MPa)
+   * Cement (Kg/m^3)
+   * Blast Furnance Slag (Kg/m^3)
+   * Fly Ash (Kg/m^3)
+   * Water (Kg/m^3)
+   * Superplasticizer (Kg/m^3)
+   * Coarse Aggregate (Kg/m^3)
+   * Fine Aggregate (Kg/m^3)
+   * Age (days)
+   * Target : Compressive Strength (MPa)
 
 **Tools & Technologies**   
 **Programming Language :** Python  
