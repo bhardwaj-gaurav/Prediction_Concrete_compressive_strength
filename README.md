@@ -33,7 +33,7 @@ This project focuses on predicting the compressive strength of concrete based on
 
 **Visuals**  
    * Predicted vs Actual Strength Scatter plot  
-    * Residuals Plot  
+   * Residuals Plot  
    * Impact on mix Feature  
 
 
