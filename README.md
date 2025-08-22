@@ -1,7 +1,12 @@
 # Prediction of Concrete Compressive Strength
 
 **Overview**  
-This project focuses on predicting the compressive strength of concrete based on its material composition using **MULTIPLE LINEAR REGRESSION**. The model is trained on a real world dataset from UCI, simulating a practical applications in civil engineering and material testing.
+This project focuses on predicting the compressive strength of concrete based on its material composition using two approaches:  
+
+**Linear Regression** – as a baseline statistical model  
+**XGBoost Regression** – for advanced machine learning performance  
+
+The dataset is sourced from the UCI Machine Learning Repository and reflects real-world applications in civil engineering and material testing.  
 
 **Dataset**  
 **Source :** https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength  
@@ -24,16 +29,26 @@ This project focuses on predicting the compressive strength of concrete based on
    * **Pandas :** Data Handling  
    * **numpy :** Numerical Computation  
    * **matplotlib :** Visualization  
-   * **Scikit-learn :** ML Modeling and Performance metrics.  
+   * **Scikit-learn :** ML Modeling and Performance metrics.
+   * **xgboost** – advanced regression modeling  
 
-**Evaluation and Results**  
-   * **R-Squared :** 0.62  
-   * **MAE :** 8.21 MPa  
-   * **RMSE :** 10.35 MPa  
+**Modeling Approaches**  
+  **Linear Regression:** Baseline regression model  
+  **XGBoost Regression:** Gradient boosting with k=10 fold cross-validation  
 
-**Visuals**  
-   * Predicted vs Actual Strength Scatter plot  
-   * Residuals Plot  
-   * Impact on mix Feature  
+**Results**  
+   **Linear Regression**   
+     R^2 : 0.62  
+     MAE (MPa) : 8.21  
+     RMSE (MPa) : 10.35  
+   **XGBoost Regression**  
+     R^2 : 0.96  
+     MAE (MPa) : 0.89  
+✅ **XGBoost outperformed Linear Regression**, showing strong predictive capability and robustness with cross-validation.  
+
+**Key Insights**  
+* Traditional regression provides a baseline but struggles with complex non-linear relationships.  
+* XGBoost significantly improves prediction accuracy, highlighting the value of ensemble learning in civil engineering applications.  
+* The model demonstrates potential in optimizing raw material usage and predicting mix strength in construction.  
 
 
